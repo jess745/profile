@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300&family=Roboto:wght@900&display=swap');
+body {
+  background-color: #d6dce4;
+  color: rgb(40,40,40);
+  font-family:'Encode Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2{
+  font-weight: 600;
+  font-size: 30px;
+  font-family: 'Encode Sans', sans-serif;
+  color :#3e5555;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+a:hover{
+color : rgb(67, 66, 84);
+}
+
+.card-white {
+  background-color:rgb(242, 248, 249);
+  border-radius:20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  width: 700px;
+  margin: 4px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align :center;
+}
+
+.btn-blue {
+  background-color: #adaebe;
+  border-radius: 5px;
+  padding: 7px 10px;
+  border: 0px  transparent;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+
+
+}
+.btn-blue:hover{
+  border: 1px solid rgb(66, 66, 84);;
+  color:rgb(2, 60, 60);
+  background-color:rgb(37, 81, 106);
+}
+
+.list-inline {
+  list-style :none;
+  padding-left: 0px;
+}
+
+
+.list-inline li{
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.container{
+  width: 500px;
+}
+
+
+#intro p{
+  margin-bottom: 32px;
+  color :rgba(0,0,0,.1);
+}
+
+#second intro p{
+color: rgba(0,0,0,.1);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
